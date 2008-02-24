@@ -1,0 +1,23 @@
+--- 
+abstract: pipemailer that changes plaintext to multi/alt with Markdown
+author: 
+  - Ricardo Signes <rjbs@cpan.org>
+distribution_type: module
+generated_by: Module::Install version 0.68
+license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: App-Smarkmail
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  Email::MIME: 0
+  Email::MIME::Creator: 0
+  Email::MIME::Modifier: 0
+  Email::Sender::Sendmail: 0
+  HTML::Entities: 0
+  Text::Markdown: 0
+version: 0.001
