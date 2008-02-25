@@ -1,5 +1,7 @@
 bin/smarkmail
+Changes
 inc/Module/Install.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -12,5 +14,8 @@ lib/App/Smarkmail.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml
+README
 t/attached.msg
 t/basic.t
+xt/pod-coverage.t
+xt/pod.t

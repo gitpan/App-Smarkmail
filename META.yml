@@ -20,4 +20,5 @@ requires:
   Email::Sender::Sendmail: 0
   HTML::Entities: 0
   Text::Markdown: 0
-version: 0.001
+tests: t/*.t xt/*.t
+version: 0.002
